@@ -11,8 +11,8 @@ int main(){
 
     cout << "Data pada Indeks 1 = " << aku[3] << endl;
     cout << "Data pada Indeks 2 = " << kamu[7] << endl;
-    cout << "Data pada Indeks 3 = " << kamu[3] << endl;
-    cout << "Data pada Indeks 4 = " << kamu[9] << endl;
+    cout << "Data pada Indeks 3 = " << dia[3] << endl;
+    cout << "Data pada Indeks 4 = " << mereka[9] << endl;
 
     //mengubah  data indeks 
     aku[1] = 200;
@@ -42,16 +42,3 @@ int main(){
     cout << "Data kelima = " << kamu[4] << endl;
     cout << endl;
 }
-
-    // Menampilkan dengan menggunakan perulangan for
-        for (int i = 0;i <= 4;i++)
-    {
-        cout << "Data indeks ke-" << i << "=";
-        cin >> kamu[i];
-    }
-    cout << endl;
-    // menampilkan dengan menggunakan perulangan for
-    for (int i =0; i<= 4; i++)
-    {
-        cout <<"Data ke-" << 1+1 << "=" << kamu[1] <<endl;
-    }
