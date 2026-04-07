@@ -5,11 +5,14 @@ int main(){
     //membuat deklarasi dengan inisialisasi
     int aku[10] = {15,30,45,60,75,90,105,120,135,150};
 
-    int kamu[7]
-    int Dia[3]
+    int kamu[7];
+    int dia[3];
     int mereka[9];
 
     cout << "Data pada Indeks 1 = " << aku[3] << endl;
+    cout << "Data pada Indeks 2 = " << kamu[7] << endl;
+    cout << "Data pada Indeks 3 = " << kamu[3] << endl;
+    cout << "Data pada Indeks 4 = " << kamu[9] << endl;
 
     aku[1] = 200;
     cout << endl;
@@ -36,6 +39,7 @@ int main(){
     cout << "Data keempat = " << kamu[3] << endl;
     cout << "Data kelima = " << kamu[4] << endl;
     cout << endl;
+}
 
     // Menampilkan dengan menggunakan perulangan for
         for (int i = 0;i <= 4;i++)
