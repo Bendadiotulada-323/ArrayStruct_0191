@@ -14,10 +14,12 @@ int main(){
     cout << "Data pada Indeks 3 = " << kamu[3] << endl;
     cout << "Data pada Indeks 4 = " << kamu[9] << endl;
 
+    //mengubah  data indeks 
     aku[1] = 200;
     cout << endl;
     cout << "Data pada indeks 1 = " << aku[1] << endl;
 
+    // menampilkan data indeks kamu berurutan
     cout << "Data Indeks 0 = " ;
     cin >> kamu[0];
     
