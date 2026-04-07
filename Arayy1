@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     //membuat deklarasi dengan inisialisasi
-    int aku[5] = {10,20,30,40,50};
+    int aku[10] = {15,30,45,60,75,90,105,120,135,150};
 
     int kamu[5];
 
