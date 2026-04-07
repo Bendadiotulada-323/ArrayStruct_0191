@@ -9,7 +9,7 @@ int main(){
     int Dia[3]
     int mereka[9];
 
-    cout << "Data pada Indeks 1 = " << aku[1] << endl;
+    cout << "Data pada Indeks 1 = " << aku[3] << endl;
 
     aku[1] = 200;
     cout << endl;
