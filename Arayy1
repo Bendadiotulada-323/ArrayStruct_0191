@@ -5,7 +5,7 @@ int main(){
     //membuat deklarasi dengan inisialisasi
     int aku[10] = {15,30,45,60,75,90,105,120,135,150};
 
-    int kamu[5];
+    int kamu[7];
 
     cout << "Data pada Indeks 1 = " << aku[1] << endl;
 
